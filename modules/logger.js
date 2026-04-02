@@ -4,4 +4,4 @@ const logger = (message) => {
     console.log(`[${config.appName}] ${message}`)
 };
 
-modules.exports = logger;
+module.exports = logger;
